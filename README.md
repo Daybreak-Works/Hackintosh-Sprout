@@ -23,6 +23,8 @@ The tested machine reached the Sequoia desktop. The latest terminal photographs 
 | [Terminal and system tools](docs/SYSTEM_TOOLS.md) | Proposed minor patch for alpha.14: Fedora tool equivalents, MacPorts setup, shell plugins and pending validation |
 | [Package-manager subproject](docs/PACKAGE_MANAGER.md) | Separate planned multi-architecture manager: x86_64 first, arm64 next; scope, milestones and acceptance |
 | [Testing procedure](docs/TESTING.md) | Backups, one-change experiments, recovery and repeatable acceptance tests |
+| [Test roadmap and versioning](docs/ROADMAP.md) | Provisional future tests, native Siri research and evidence-based release progression |
+| [Native Siri test plan](docs/SIRI.md) | Planned microphone prerequisites, capability investigation and native activation acceptance |
 | [Roadmap and beta gates](docs/BETA_ACCEPTANCE.md) | Pending work and mandatory G0–G7 release criteria |
 | [Installation verification](docs/INSTALLATION_VERIFICATION.md) | Required verifier to implement and validate for the first beta |
 | [Naming conventions](docs/NAMING.md) | Standard filenames, test IDs, dates and historical-name mapping |
@@ -96,3 +98,4 @@ This extremely complex firmware/ACPI/AMD/driver project uses **OpenAI ChatGPT/Co
 Apple's macOS Sequoia license restricts use on non-Apple-branded computers. Calling this work educational or experimental does not remove those restrictions. This repository supplies no Apple installer, recovery image, proprietary extracted kext, firmware, activation credential or complete private EFI. Read [LEGAL.md](LEGAL.md) before relying on the material. No affiliation with Apple, HP, AMD or upstream projects is claimed.
 
 The banner artwork and generation process are documented in [assets/README.md](assets/README.md).
+
