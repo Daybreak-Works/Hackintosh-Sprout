@@ -6,7 +6,7 @@
 
 Experimental macOS Sequoia compatibility research for the HP All-in-One 22-dd0xxx with motherboard HP 86F3, AMD Athlon Silver 3050U and Radeon Raven2.
 
-**Status: UNSTABLE ALPHA. Latest evidenced physical test: `26.1.1-alpha.14`. No beta or stable release exists.** Documentation snapshot: 2026-10-24, America/Santiago. This repository is a research record, not a complete EFI distribution, an Apple-supported installation or a guarantee of compatibility.
+**Status: UNSTABLE ALPHA. Latest evidenced physical test: `26.1.1-alpha.14`. No beta or stable release exists.** Documentation snapshot: 2026-10-25, America/Santiago. This repository is a research record, not a complete EFI distribution, an Apple-supported installation or a guarantee of compatibility.
 
 The tested machine reached the Sequoia desktop. The latest terminal photographs show Metal 3, 2 GB reported VRAM, 1920×1080 and loaded Lilu/NootedRed/AppleALC. Sustained graphics, power, peripherals, recovery and dual-boot reliability remain incompletely tested. The full active EFI and its private state files were not recovered; the documentation alone cannot reproduce an exact working installation.
 
@@ -18,6 +18,7 @@ The tested machine reached the Sequoia desktop. The latest terminal photographs 
 | [Latest evidence](docs/LATEST_EVIDENCE.md) | Latest terminal observations, user declarations, source hashes and evidence gaps |
 | [Hardware and software](docs/HARDWARE.md) | Actual test machine, recorded versions and compatibility limits |
 | [Known issues](docs/KNOWN_ISSUES.md) | Current defects, possible remedies and evidence needed to close them |
+| [Terminal and system tools](docs/SYSTEM_TOOLS.md) | Proposed minor patch for alpha.14: Fedora tool equivalents, MacPorts setup, shell plugins and pending validation |
 | [Testing procedure](docs/TESTING.md) | Backups, one-change experiments, recovery and repeatable acceptance tests |
 | [Roadmap and beta gates](docs/BETA_ACCEPTANCE.md) | Pending work and mandatory G0–G7 release criteria |
 | [Installation verification](docs/INSTALLATION_VERIFICATION.md) | Required verifier to implement and validate for the first beta |
@@ -52,6 +53,8 @@ Keep the known-working rescue USB available throughout testing. Preparation can 
 | Next proposed work | Audit the real alpha.14 baseline; then investigate Bluetooth/internal USB |
 
 The relative kext order above is not the full `Kernel/Add` list and is not a universal prescription for other hardware. No new physical alpha test was performed while writing this documentation.
+
+The maintainer has scoped the current additions as a **minor patch to alpha.14**. The [terminal and system tools plan](docs/SYSTEM_TOOLS.md) is prepared for physical testing; no package installation or new release is claimed. Native “Hey Siri” remains a separate, unresolved investigation: no working boot argument, system-file patch or native wake-word activation has been verified on this HP.
 
 ## First-beta installation verifier
 

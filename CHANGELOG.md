@@ -2,6 +2,15 @@
 
 This file records repository changes. Physical experimental versions are documented separately in [VERSION_HISTORY.md](docs/VERSION_HISTORY.md).
 
+## 2026-10-25 — Minor-patch planning for alpha.14
+
+- Record the maintainer's request to keep the proposed additions within the current alpha.14 minor-patch scope, without allocating another alpha or declaring a release.
+- Add `docs/SYSTEM_TOOLS.md`: recovered Fedora tool references, proposed Sequoia equivalents, a staged MacPorts installation procedure, Zsh plugin configuration, verification and rollback.
+- Explain the current Homebrew x86_64 support limitation using upstream documentation reviewed on this date; prefer MacPorts binary archives for the Sequoia candidate.
+- Keep native “Hey Siri” investigation pending actual system diagnostics and a demonstrated native wake-word test. Terminal utilities are not a Siri fix.
+
+Validation: documentation and command review only. Installation and hardware results remain `NOT_TESTED`; no EFI, NVRAM, macOS system-file or package change was executed on the HP.
+
 ## 2026-10-24 — Approved README banners
 
 - Add the approved Sequoia icon-mosaic banner, shared with the documentation-only `main` branch.
