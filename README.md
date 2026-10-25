@@ -13,6 +13,12 @@ Experimental macOS Sequoia and Tahoe compatibility research for the HP 22-dd0xxx
 
 Start with the [Sequoia documentation](https://github.com/Vynzaro/HP86F3-Hackintosh/tree/Sequoia), [version history](https://github.com/Vynzaro/HP86F3-Hackintosh/blob/Sequoia/docs/VERSION_HISTORY.md), [latest evidence](https://github.com/Vynzaro/HP86F3-Hackintosh/blob/Sequoia/docs/LATEST_EVIDENCE.md) and [beta acceptance criteria](https://github.com/Vynzaro/HP86F3-Hackintosh/blob/Sequoia/docs/BETA_ACCEPTANCE.md).
 
+## Separate package-manager development track
+
+A [multi-architecture package manager](docs/PACKAGE_MANAGER.md) is now planned as a separate subproject: prioritize AMD/Intel x86_64 on Sequoia, then validate native Apple Silicon arm64 support. The proposed first prototype is a project-owned CLI over MacPorts, with an independent backend reserved for later evaluation.
+
+This track is **PLANNED, not implemented or tested**. It has its own milestones and eventual versioning, does not change the Hackintosh alpha status and does not block the first Sequoia beta. `main` hosts its specification only.
+
 ## Branch structure
 
 | Branch | Purpose |
