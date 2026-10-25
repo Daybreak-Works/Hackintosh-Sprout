@@ -2,6 +2,14 @@
 
 This file records repository changes. Physical experimental versions are documented separately in [VERSION_HISTORY.md](docs/VERSION_HISTORY.md).
 
+## 2026-10-25 — Guided installer plan and desktop gallery
+
+- Add `docs/INSTALLER.md`: planned USB selection, preferences, host adapters, staging, backup, confirmation and INS-01–INS-05 acceptance milestones.
+- Add the maintainer-requested desktop screenshot to `docs/GALLERY.md` with opaque serial/location redactions and no embedded metadata.
+- Link the planned installer and gallery from README and clarify the installer/verifier distinction in the roadmap.
+
+Validation: documentation and relative-link review; PNG decoding/dimensions; RGB equality outside the redaction regions. No installer was implemented or executed and no new physical test or release is claimed.
+
 ## 2026-10-25 — Separate multi-architecture package-manager plan
 
 - Add `docs/PACKAGE_MANAGER.md` and a matching project-wide specification in the documentation-only `main` branch.

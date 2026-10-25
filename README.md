@@ -16,6 +16,8 @@ The tested machine reached the Sequoia desktop. The latest terminal photographs 
 | --- | --- |
 | [Version history](docs/VERSION_HISTORY.md) | alpha.1–alpha.14, errors, hypotheses, changes, results and rollback limits |
 | [Latest evidence](docs/LATEST_EVIDENCE.md) | Latest terminal observations, user declarations, source hashes and evidence gaps |
+| [Project gallery](docs/GALLERY.md) | Real desktop captures with privacy redactions and evidence limits |
+| [Guided installer](docs/INSTALLER.md) | Planned USB/preferences wizard, staging, backups, target protection and acceptance |
 | [Hardware and software](docs/HARDWARE.md) | Actual test machine, recorded versions and compatibility limits |
 | [Known issues](docs/KNOWN_ISSUES.md) | Current defects, possible remedies and evidence needed to close them |
 | [Terminal and system tools](docs/SYSTEM_TOOLS.md) | Proposed minor patch for alpha.14: Fedora tool equivalents, MacPorts setup, shell plugins and pending validation |
@@ -56,6 +58,14 @@ Keep the known-working rescue USB available throughout testing. Preparation can 
 The relative kext order above is not the full `Kernel/Add` list and is not a universal prescription for other hardware. No new physical alpha test was performed while writing this documentation.
 
 The maintainer has scoped the terminal/system-tool additions and Siri investigation as a **minor patch to alpha.14**. The [terminal and system tools plan](docs/SYSTEM_TOOLS.md) is prepared for physical testing; no package installation or new release is claimed. Native “Hey Siri” remains a separate, unresolved investigation: no working boot argument, system-file patch or native wake-word activation has been verified on this HP.
+
+## Guided installer — planned
+
+Develop an [option-driven Sequoia installer](docs/INSTALLER.md) with USB selection, media profile and preferences, local staging, backups, a change preview and explicit confirmation before writes. Installed macOS is the primary new workflow, with the established Fedora workflow retained for preparation/recovery. The installer is not implemented or tested.
+
+The future selector must protect system/data/source disks and must never identify an erase target solely by an external flag or a remembered disk number.
+
+The [gallery](docs/GALLERY.md) includes the maintainer's desktop capture with the serial number and weather location redacted. It is a visual record, not a stability certification.
 
 ## Separate package-manager development track
 

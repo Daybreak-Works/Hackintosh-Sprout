@@ -1,4 +1,4 @@
-# README banner artwork
+# Project artwork and gallery
 
 ## Approved asset
 
@@ -40,3 +40,7 @@ The committed PNG preserves the approved final generated file's bytes. No subseq
 SHA-256: `13362a41dd5e8c01369f2240ad0c5e27f8b800ba37521a9be35563e8db3a836e`.
 
 Read the project's [AI disclosure](https://github.com/Vynzaro/HP86F3-Hackintosh/blob/Sequoia/AI_DISCLOSURE.md) and [legal notice](https://github.com/Vynzaro/HP86F3-Hackintosh/blob/Sequoia/LEGAL.md). This provenance page does not grant a new blanket license or claim that AI generation eliminates third-party rights.
+
+## Real Sequoia desktop gallery
+
+The [project gallery](../docs/GALLERY.md) includes a maintainer-supplied screenshot with deterministic privacy redactions. Unlike the generated banner above, it records a visible desktop moment. The original stays private; the public derivative was checked for unchanged pixels outside the redaction regions. No generative reconstruction was used.

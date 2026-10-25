@@ -8,6 +8,12 @@ First re-establish the exact alpha.14 media, hashes and backup. Then investigate
 
 The old roadmap called these alpha.15–alpha.28+ slots. They are tentative work items, not executed versions. Failed hypotheses can change the order and numbering. Do not install proposed Bluetooth firmware or BlueToolFixup merely because it appears on the roadmap; first verify the actual device, upstream version and license.
 
+## Guided installer development
+
+The maintainer requested a [guided Sequoia installer](INSTALLER.md), with USB selection, preferences, staged preparation, backup and confirmed writes. Track its planned INS-01–INS-05 milestones separately from completed physical tests. It is not implemented; the first prototype begins with read-only inventory and local staging.
+
+A wizard is not automatically required for the first Sequoia beta. If included or advertised in a release, its media-selection, write-failure and recovery tests become mandatory for that release's stated scope. The read-only first-beta verifier below remains independently mandatory. Package-manager development is a separate subproject.
+
 ## Gates
 
 | Gate | Requirement | Current position |
