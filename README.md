@@ -34,6 +34,8 @@ For a **full bootable macOS installer, use 32 GB or larger**. Apple's [bootable-
 
 Keep the known-working rescue USB available throughout testing. Preparation can erase the selected USB; positively identify the device and back up its contents first. Preserve Fedora's partitions, EFI and boot entries. The historical approximately 80 GiB APFS allocation is an observation, not a recommended minimum or permission to repartition another machine.
 
+> **Host OS note:** Linux is recommended over Windows as the host environment for this project's preparation and installation workflow. The host-side work was carried out entirely in Fedora Workstation 44 on this same HP All-in-One 22-dd0xxx (HP 86F3). The maintainer is not familiar with the equivalent Windows-based procedures, which have not been developed or verified in this project.
+
 ## Latest recorded configuration
 
 | Item | Recorded value / limitation |

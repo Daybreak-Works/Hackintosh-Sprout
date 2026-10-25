@@ -13,6 +13,8 @@ This preserves the working method used by the project. It is not a sequential in
 
 Missing alpha.13/alpha.14 state JSON or a hash mismatch is a reason to re-establish the baseline, not fabricate state or disable old script checks. A historical script's default audit mode is safer to inspect than its `--apply`, but even an audit's implementation and assumptions must be reviewed.
 
+> **Host OS note:** Linux is recommended over Windows as the host environment for this project's preparation and installation workflow. The host-side work was carried out entirely in Fedora Workstation 44 on this same HP All-in-One 22-dd0xxx (HP 86F3). The maintainer is not familiar with the equivalent Windows-based procedures, which have not been developed or verified in this project.
+
 ## During and after a test
 
 1. Prepare long operations in Fedora. Keep commands for macOS Recovery short and individually understandable.
