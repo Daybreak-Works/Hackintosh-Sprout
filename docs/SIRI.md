@@ -6,7 +6,7 @@ Planning date: 2026-10-25, America/Santiago. Published baseline: **26.1.1-alpha.
 
 Investigate whether the installed Sequoia system can activate its native Siri assistant through its native “Hey Siri” / “Oye Siri” detector on the HP 86F3. Use the activation phrase actually supported by the selected Siri language. Dictation commands, Voice Control, keyboard shortcuts, external wake-word engines and remote assistants do not satisfy this test's native activation objective.
 
-The maintainer requested this as a minor-patch investigation based on alpha.14. Its initial provisional slot is alpha.18 after microphone validation in [ROADMAP.md](ROADMAP.md). Planning does not allocate a new alpha; an actual physical experiment receives its chronological number under [NAMING.md](NAMING.md). Do not modify the established Lilu/NootedRed/AppleALC order to pursue this unrelated feature.
+The maintainer requested this as a minor-patch investigation based on alpha.14. Its initial provisional slot is alpha.17 after microphone validation in [ROADMAP.md](ROADMAP.md). Planning does not allocate a new alpha; an actual physical experiment receives its chronological number under [NAMING.md](NAMING.md). Do not modify the established Lilu/NootedRed/AppleALC order to pursue this unrelated feature.
 
 ## Research question
 
