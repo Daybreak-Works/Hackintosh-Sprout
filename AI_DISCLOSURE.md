@@ -10,6 +10,8 @@ AI assistance has included organizing recovered project records; comparing logs,
 
 Recovered historical scripts include AI-assisted experimental work and have not all been validated against the present machine state. A script being generated, syntax-checked or archived does not establish that it was safely executed, that it changed the intended EFI, or that its hardware hypothesis was correct.
 
+The README banners were also generated and refined with OpenAI's built-in image generation tool under direct human direction. The maintainer reviewed alternatives, selected the Sequoia design, requested successive Tahoe refinements and explicitly approved both final images before publication. Artwork provenance, prompts and file fingerprints are recorded in [assets/README.md](assets/README.md). Visual approval does not certify hardware compatibility, originality or legal clearance.
+
 ## Direct supervision
 
 The human maintainer directly supervises the project: defines goals and constraints, provides source material, operates and observes the physical HP, reviews proposed machine-affecting actions, supplies test results and decides release scope. Repository editing may be performed by the assistant within explicitly authorized work. No live hardware access to the HP is implied by a repository commit.

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/sequoia-banner.png" alt="Sequoia — HP86F3-Hackintosh: macOS compatibility research" width="100%">
+</p>
+
 # HP86F3-Hackintosh — Sequoia
 
 Experimental macOS Sequoia compatibility research for the HP All-in-One 22-dd0xxx with motherboard HP 86F3, AMD Athlon Silver 3050U and Radeon Raven2.
@@ -61,7 +65,7 @@ Before publishing `26.1.1-beta.1`, the project **must create, review and test `s
 | --- | --- |
 | [`main`](https://github.com/Vynzaro/HP86F3-Hackintosh/tree/main) | Default branch; documentation only |
 | [`Sequoia`](https://github.com/Vynzaro/HP86F3-Hackintosh/tree/Sequoia) | Sequoia-specific development and documentation; this branch |
-| [`Tahoe`](https://github.com/Vynzaro/HP86F3-Hackintosh/tree/Tahoe) | Separate future Tahoe research; no inherited claim of hardware validation |
+| [`Tahoe`](https://github.com/Vynzaro/HP86F3-Hackintosh/tree/Tahoe) | Not developed yet; work begins after Sequoia reaches its first accepted beta or the Sequoia project is completed |
 
 Keep implementation changes in the relevant macOS branch. Copy or cherry-pick reviewed documentation to `main` without bringing implementation files with it. Branch names are case-sensitive. Repository files use English; maintainer discussion may use Spanish.
 
@@ -70,3 +74,5 @@ Keep implementation changes in the relevant macOS branch. Copy or cherry-pick re
 This extremely complex firmware/ACPI/AMD/driver project uses **OpenAI ChatGPT/Codex as a supervised technical assistant** for research, interpretation, drafting and code preparation. The human maintainer directs the work, operates the physical machine and decides whether evidence supports a test or release. AI assistance is not hardware testing or legal review; see [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
 
 Apple's macOS Sequoia license restricts use on non-Apple-branded computers. Calling this work educational or experimental does not remove those restrictions. This repository supplies no Apple installer, recovery image, proprietary extracted kext, firmware, activation credential or complete private EFI. Read [LEGAL.md](LEGAL.md) before relying on the material. No affiliation with Apple, HP, AMD or upstream projects is claimed.
+
+The banner artwork and generation process are documented in [assets/README.md](assets/README.md).

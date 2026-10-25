@@ -2,6 +2,16 @@
 
 This file records repository changes. Physical experimental versions are documented separately in [VERSION_HISTORY.md](docs/VERSION_HISTORY.md).
 
+## 2026-10-24 — Approved README banners
+
+- Add the approved Sequoia icon-mosaic banner, shared with the documentation-only `main` branch.
+- Add the approved Tahoe companion with restrained Liquid Glass treatment in the `Tahoe` branch.
+- Record the artwork references, generation process, human approval and file-integrity fingerprints.
+- Clarify that Tahoe development has not started and will begin only after Sequoia reaches an accepted beta or the Sequoia project is completed.
+- Extend the AI disclosure to cover supervised artwork generation and review.
+
+No new hardware test, EFI change or release is represented by this update.
+
 ## 2026-10-24 — Sequoia documentation baseline
 
 - Document alpha.1–alpha.14 with known errors, hypotheses, candidate remedies, limited successes and rollback dependencies.
