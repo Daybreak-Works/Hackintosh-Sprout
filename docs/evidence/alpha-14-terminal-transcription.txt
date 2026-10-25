@@ -1,0 +1,31 @@
+# alpha.14 terminal photographs — selected reviewed transcription
+# Sources: S05 (156554.jpg), S06 (156555.jpg); original hashes in docs/SOURCES.md.
+# Record association: project roadmap dated 2026-10-24, America/Santiago.
+# Exact photo capture timestamps were not verified. Not a new terminal session.
+# NOT original stdout. Selected readable fields only; whitespace normalized.
+# Omitted: display serial, account/host prompt, UUIDs, addresses, kext indices,
+# dependency lists and other unneeded fields. Original photos remain private.
+
+[S05: selected display fields; command invocation not visible]
+Chipset Model: AMD Radeon RX Picasso Graphics
+VRAM (Total): 2 GB
+Vendor: AMD (0x1002)
+Device ID: 0x15d8
+Metal Support: Metal 3
+Resolution: 1920 x 1080 (1080p FHD - Full High Definition)
+Main Display: Yes
+Online: Yes
+Connection Type: Internal
+
+[S06: normalized extraction of bundle identifiers and versions, not full rows]
+as.vit9696.Lilu (1.7.2)
+org.ChefKiss.NootedRed (0.8.10)
+as.vit9696.AppleALC (1.9.8)
+
+[S06: selected command message]
+No variant specified, falling back to release
+
+# That message is from the photographed kmutil command; it does not prove a
+# change of the OpenCore USB build from DEBUG to RELEASE.
+# These observations support reported capability/driver presence, not sustained
+# stability, speaker playback, Bluetooth pairing or beta acceptance.

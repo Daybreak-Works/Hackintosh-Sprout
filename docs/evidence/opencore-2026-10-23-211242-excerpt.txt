@@ -1,0 +1,8 @@
+# Selected original OpenCore log endpoint — S08
+# Source: opencore-2026-10-23-211242.txt
+# Original SHA-256: f62c2b4e67b1d35cf5379650f9025b87b5fcdcfb1f0eaf1d48082d75dc61a3c0
+# Selection: final non-empty/non-NUL line only. All earlier lines and NUL padding omitted.
+# Text encoding UTF-8; public excerpt line ending LF. No new execution.
+# Firmware timestamp timezone unknown. This predates the alpha.14 desktop evidence.
+
+05:428 00:077 OCC: Setup ASCII Output - Success

@@ -1,0 +1,8 @@
+# Selected original OpenCore log endpoint — S07
+# Source: opencore-2026-10-23-201648.txt
+# Original SHA-256: a95b7c89b30d14fa608618922883c5f89eb9241998eea463351450926468caa2
+# Selection: final non-empty/non-NUL line only. All earlier lines and NUL padding omitted.
+# Text encoding UTF-8; public excerpt line ending LF. No new execution.
+# Firmware timestamp timezone unknown. This predates the alpha.14 desktop evidence.
+
+77:017 00:064 AAPL: #[EB|LOG:EXITBS:START] 2026-10-23T20:18:05
