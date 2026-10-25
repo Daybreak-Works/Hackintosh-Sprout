@@ -19,6 +19,7 @@ The tested machine reached the Sequoia desktop. The latest terminal photographs 
 | [Hardware and software](docs/HARDWARE.md) | Actual test machine, recorded versions and compatibility limits |
 | [Known issues](docs/KNOWN_ISSUES.md) | Current defects, possible remedies and evidence needed to close them |
 | [Terminal and system tools](docs/SYSTEM_TOOLS.md) | Proposed minor patch for alpha.14: Fedora tool equivalents, MacPorts setup, shell plugins and pending validation |
+| [Package-manager subproject](docs/PACKAGE_MANAGER.md) | Separate planned multi-architecture manager: x86_64 first, arm64 next; scope, milestones and acceptance |
 | [Testing procedure](docs/TESTING.md) | Backups, one-change experiments, recovery and repeatable acceptance tests |
 | [Roadmap and beta gates](docs/BETA_ACCEPTANCE.md) | Pending work and mandatory G0–G7 release criteria |
 | [Installation verification](docs/INSTALLATION_VERIFICATION.md) | Required verifier to implement and validate for the first beta |
@@ -54,7 +55,13 @@ Keep the known-working rescue USB available throughout testing. Preparation can 
 
 The relative kext order above is not the full `Kernel/Add` list and is not a universal prescription for other hardware. No new physical alpha test was performed while writing this documentation.
 
-The maintainer has scoped the current additions as a **minor patch to alpha.14**. The [terminal and system tools plan](docs/SYSTEM_TOOLS.md) is prepared for physical testing; no package installation or new release is claimed. Native “Hey Siri” remains a separate, unresolved investigation: no working boot argument, system-file patch or native wake-word activation has been verified on this HP.
+The maintainer has scoped the terminal/system-tool additions and Siri investigation as a **minor patch to alpha.14**. The [terminal and system tools plan](docs/SYSTEM_TOOLS.md) is prepared for physical testing; no package installation or new release is claimed. Native “Hey Siri” remains a separate, unresolved investigation: no working boot argument, system-file patch or native wake-word activation has been verified on this HP.
+
+## Separate package-manager development track
+
+The [multi-architecture package manager](docs/PACKAGE_MANAGER.md) is a separate planned subproject, with x86_64 support for AMD/Intel as the first target and native arm64 support as the next milestone. Its proposed first prototype uses a project-owned CLI over MacPorts; an independent package backend requires a later feasibility decision.
+
+No manager implementation, installation or architecture test exists yet. This development track has its own milestones and eventual versions; it is not part of the current alpha.14 minor patch and does not add a first-beta acceptance gate. Sequoia hardware stabilization remains the priority.
 
 ## First-beta installation verifier
 

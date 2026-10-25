@@ -24,6 +24,10 @@ For this Sequoia x86_64 candidate, prefer **MacPorts**. Homebrew's current suppo
 
 This AMD Hackintosh uses the x86_64 software architecture; that does not make it an officially supported Intel Mac. Package availability and successful execution must be tested on the actual system. Prefer binary archives to avoid unexpected compilation workloads on the Athlon 3050U. A missing binary is a reason to stop and review that package, not to silently compile its entire dependency tree.
 
+The separate [package-manager subproject](PACKAGE_MANAGER.md) plans a project-owned multi-architecture interface, initially using a MacPorts adapter. It is not implemented and is not included in this alpha.14 utility patch. The installation candidate below continues to use upstream MacPorts directly.
+
+The current Homebrew macOS installer also rejects non-arm64 hosts. That restriction on new installations is distinct from the limited continued operation of existing Intel installations. See the [upstream installation script](https://github.com/Homebrew/install/blob/HEAD/install.sh), reviewed on 2026-10-25.
+
 ## Selected tools
 
 | Group | Package / application | Purpose and scope |

@@ -2,6 +2,16 @@
 
 This file records repository changes. Physical experimental versions are documented separately in [VERSION_HISTORY.md](docs/VERSION_HISTORY.md).
 
+## 2026-10-25 — Separate multi-architecture package-manager plan
+
+- Add `docs/PACKAGE_MANAGER.md` and a matching project-wide specification in the documentation-only `main` branch.
+- Define AMD/Intel x86_64 as the first target and native Apple Silicon arm64 as the next milestone, with package-level OS/ABI requirements and separate validation on each target.
+- Propose a project-owned CLI over MacPorts for the first prototype; defer an independent catalog/backend until its maintenance and integrity requirements are assessed.
+- Distinguish the current Homebrew installer's arm64 restriction from Tier 3 operation of existing Intel installations, using upstream sources reviewed on this date.
+- Link the new track from both READMEs and the terminal-tools plan. Keep its lifecycle separate from the alpha.14 minor patch and the Sequoia beta gates.
+
+Validation: documentation, relative-link and scope review only. No package-manager code, package installation, architecture execution test or new Hackintosh release is represented by this change.
+
 ## 2026-10-25 — Minor-patch planning for alpha.14
 
 - Record the maintainer's request to keep the proposed additions within the current alpha.14 minor-patch scope, without allocating another alpha or declaring a release.
