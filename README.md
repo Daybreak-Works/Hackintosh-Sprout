@@ -17,6 +17,7 @@ The tested machine reached the Sequoia desktop. The latest terminal photographs 
 | [Version history](docs/VERSION_HISTORY.md) | alpha.1–alpha.14, errors, hypotheses, changes, results and rollback limits |
 | [Latest evidence](docs/LATEST_EVIDENCE.md) | Latest terminal observations, user declarations, source hashes and evidence gaps |
 | [Project gallery](docs/GALLERY.md) | Real desktop captures with privacy redactions and evidence limits |
+| [Extra development projects](docs/EXTRA_PROJECTS.md) | GitHub tasks, priorities and dependencies for the installer, package manager, system tools, verifier and multi-EFI design |
 | [Guided installer](docs/INSTALLER.md) | Planned USB/preferences wizard, staging, backups, target protection and acceptance |
 | [Hardware and software](docs/HARDWARE.md) | Actual test machine, recorded versions and compatibility limits |
 | [Known issues](docs/KNOWN_ISSUES.md) | Current defects, possible remedies and evidence needed to close them |
