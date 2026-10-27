@@ -2,6 +2,15 @@
 
 This file records repository changes. Physical experimental versions are documented separately in [VERSION_HISTORY.md](docs/VERSION_HISTORY.md).
 
+## 2026-10-26 — Extra-project development queue
+
+- Add `docs/EXTRA_PROJECTS.md` linking five scoped GitHub tasks, acceptance criteria, development priorities and existing specifications.
+- Separate Linux/fixture development evidence from macOS/HP execution and physical alpha numbering.
+- Define Sequoia feature-branch/PR workflow, preserve documentation-only main and retain the Tahoe start gate.
+- Link the development queue from README. No executable, package operation, EFI candidate, new license or release is added.
+
+Validation: relative-link, issue-reference and scope/status review. No physical hardware test was executed.
+
 ## 2026-10-25 — Guided installer plan and desktop gallery
 
 - Add `docs/INSTALLER.md`: planned USB selection, preferences, host adapters, staging, backup, confirmation and INS-01–INS-05 acceptance milestones.
